@@ -1,0 +1,34 @@
+.inputLabel-form {
+    height: 80px;
+    display: flex;
+    direction: row;
+    align-items: center;
+}
+
+.inputLabel-error {
+    color: red;
+    height: 20px;
+    margin-bottom: -20px;
+}
+
+.inputLabel-error-prapgraph {
+    font-size: 12px;;
+    margin-top: 5px; 
+}
+
+.inputLabel-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel-input {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-right: 10px;
+}

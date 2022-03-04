@@ -1,0 +1,6 @@
+.IssuesSection-wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1200px;
+}
