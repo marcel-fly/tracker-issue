@@ -25,6 +25,7 @@ export const IssuesList: React.FC<Props>= ({title, color, issuesData, typeIssue}
                     title={issueData.title} 
                     id={issueData.id} 
                     type={typeIssue} 
+                    color={color}
                 />
             ))}
                 

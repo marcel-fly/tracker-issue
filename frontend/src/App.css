@@ -14,34 +14,35 @@
 }
 
 h1 {
-  font-family: "Lucida Handwriting", "Courier New", monospace;
+  font-family: 'Lucida Sans', sans-serif;
+  color: rgb(30, 144, 255);
 }
 
 h2 {
-  font-family: "Lucida Handwriting", "Courier New", monospace;
+  font-family: 'Lucida Sans', sans-serif;
+  color: rgb(99, 98, 98);
 }
 h3 {
-  font-family: "Lucida Console", "Courier New", sans-serif;
-  font-weight: 700;
+  font-family: 'Lucida Sans', sans-serif;
+  color: rgb(99, 98, 98);
 }
 p {
-  font-family: "Lucida Console", "Courier New", sans-serif;
-  font-weight: 500;
+  font-family: 'Lucida Sans', sans-serif;
+  color: rgb(99, 98, 98);
 }
 button {
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-  border-radius: 10px;
+  background-color: rgb(30, 144, 255);
+  color: white;
+  border-radius: 2px;
   cursor: pointer;
-  font-family: "Helvetica", "Courier New", sans-serif;
+  border: 0px;
+  font-family: Verdana, Helvetica, sans-serif;
   padding: 3px 5px ;
   font-weight: 700;
 }
 
 button:hover {
-  color: white;
-  background-color: black;
+  color: rgb(99, 98, 98);
   transition: .2s;
-  box-shadow: 2px 1px 8px 2px rgb(0, 0, 0);
+  box-shadow: 1px 1px 8px 0px rgb(99, 98, 98);
 }

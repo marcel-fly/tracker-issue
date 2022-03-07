@@ -11,9 +11,10 @@ interface Props {
   description: string
   type: string
   id: number
+  color: string
 }
 
-export const Issue: React.FC<Props> = ({ title, description, type, id }) => {
+export const Issue: React.FC<Props> = ({ title, description, type, id, color }) => {
   const dispatch = useDispatch()
 
   let buttonTitle = ''
@@ -34,7 +35,7 @@ export const Issue: React.FC<Props> = ({ title, description, type, id }) => {
   }
 
   return (
-    <div className="issue-wraper">
+    <div style={ {borderColor: color} } className="issue-wraper">
       <h3 className="issue-header">{title}</h3>
       <p className="issue-description">{description}</p>
       <button
