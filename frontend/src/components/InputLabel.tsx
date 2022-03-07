@@ -58,7 +58,7 @@ export const InputLabel: React.FC<Props> = () => {
         />
         {errors.description && (
           <div className="inputLabel-error">
-            <p className="inputLabel-error-prapgraph">Enter descritpion</p>
+            <p className="inputLabel-error-prapgraph">Enter description</p>
           </div>
         )}
       </div>
