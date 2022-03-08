@@ -5,8 +5,8 @@ node.js and the database is mongodb. To transfer and store data on the frontend,
 
 # Possible improvements and future solutions
 
-- adding optimistic updates
-- improved redux typing
-- url and password to database would be in ENV
-- adding unit, integration and E2E tests
-- improved design nad resposiveness
+- add optimistic updates
+- improve redux typing
+- url and password store in ENV
+- add unit, integration and E2E tests
+- improve design and resposiveness
