@@ -1,6 +1,6 @@
 # tracker-issue
 
-The app was created using create-react-app and uses typescript. The backend was created using node.js and the database is mongodb. Redux was used to transfer and store data on the frontend, which is not necessary for such a small app, but may be useful for future development.
+The app was created using create-react-app and used typescript. The backend was created using node.js and the database was mongodb. Redux was used to transfered and stored data on the frontend, which was not necessary for such a small app, but may be useful for future development.
 
 # Possible improvements and future solutions
 
